@@ -39,3 +39,12 @@ export const projects = [
     image: "https://placehold.co/600x400/png",
   },
 ];
+
+export const skills = [
+  { name: "React", category: "Frontend" },
+  { name: "Tailwind CSS", category: "Frontend" },
+  { name: "JavaScript", category: "Frontend" },
+  { name: "Node.js", category: "Backend" },
+  { name: "MongoDB", category: "Backend" },
+  { name: "Git", category: "Tools" },
+];
