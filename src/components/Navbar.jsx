@@ -2,7 +2,7 @@ import { navLinks } from "../constants";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between w-full z-10 p-6">
+    <nav className="flex items-center justify-between w-full lg:max-w-7xl mx-auto z-10 p-6">
       <a href="#" className="font-bold text-xl">
         mlathyf
       </a>
@@ -10,10 +10,7 @@ export default function Navbar() {
       <ul className="flex gap-8">
         {navLinks.map((link) => (
           <li key={link.label}>
-            <a
-              href={link.href}
-              className="hover:text-blue-500 transition-colors"
-            >
+            <a href={link.href} className="hover:text-accent transition-colors">
               {link.label}
             </a>
           </li>

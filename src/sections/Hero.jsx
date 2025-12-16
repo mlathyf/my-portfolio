@@ -19,7 +19,7 @@ export default function Hero() {
           {heroContent.bio}
         </p>
 
-        <button className="px-8 py-3 font-bold text-lg border-b-2 bg-accent text-white rounded-lg transition-all duration-150 drop-shadow-xl transform hover:scale-102 hover:bg-accent/90 hover:drop-shadow-2xl">
+        <button className="px-8 py-3 font-bold text-lg bg-accent text-white rounded-lg transition-all duration-150 shadow-lg transform hover:scale-102 hover:bg-accent/90 hover:shadow-2xl hover:shadow-accent/20">
           {heroContent.ctaText}
         </button>
       </div>
