@@ -3,7 +3,10 @@ import heroImg from "../assets/heroImage2.svg";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center min-h-screen lg:flex-row p-8 gap-10  max-w-7xl mx-auto">
+    <section
+      id="home"
+      className="flex flex-col items-center min-h-screen lg:flex-row p-8 gap-10  max-w-7xl mx-auto"
+    >
       {/* Text Content */}
       <div className="text-center flex-1 lg:text-left space-y-4">
         <h3 className="text-xl md:text-2xl text-slate-700">

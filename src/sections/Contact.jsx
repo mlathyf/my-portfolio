@@ -18,7 +18,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-20 px-8 max-w-4xl mx-auto text-center">
+    <section id="contact" className="py-20 px-8 max-w-4xl mx-auto text-center">
       <h2 className="text-3xl font-bold mb-4">Get In Touch</h2>
       <p className="text-slate-500 mb-10">
         Have a project in mind? Contact me at{" "}
@@ -67,6 +67,7 @@ export default function Contact() {
           </label>
           <textarea
             name="message"
+            rows={4}
             id="message"
             onChange={handleChange}
             placeholder="Tell me about your project..."

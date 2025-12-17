@@ -2,7 +2,7 @@ import { skills } from "../constants";
 
 export default function About() {
   return (
-    <section className="w-full py-16 px-8 bg-slate-800 text-white">
+    <section id="about" className="w-full py-16 px-8 bg-slate-800 text-white">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-between gap-12 lg:gap-20">
         {/* Left Column */}
         <div className="flex-1 space-y-4 text-center md:text-left ">
