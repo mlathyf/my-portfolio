@@ -31,7 +31,7 @@ export const projects = [
     image: "https://placehold.co/600x400/png",
   },
   {
-    title: "Weather App",
+    title: "Weather App 2",
     description:
       "Fetches live data from OpenWeather API with dynamic backgrounds.",
     tags: ["React", "API", "Tailwind"],
@@ -48,3 +48,8 @@ export const skills = [
   { name: "MongoDB", category: "Backend" },
   { name: "Git", category: "Tools" },
 ];
+
+export const contactDetails = {
+  name: "M.Lathyf",
+  email: "muhassanlathyf@gmail.com",
+};

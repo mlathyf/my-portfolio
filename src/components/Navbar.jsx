@@ -2,7 +2,7 @@ import { navLinks } from "../constants";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between w-full lg:max-w-7xl mx-auto z-10 p-6">
+    <nav className="flex items-center justify-between w-full lg:max-w-7xl mx-auto z-10 p-6 ">
       <a href="#" className="font-bold text-xl">
         mlathyf
       </a>
